@@ -5,7 +5,7 @@ import { MdOutlineShoppingBag } from "react-icons/md";
 const Header = ({fixed}) => {
   return (
     <div>
-      <div className={`${fixed?"fixed top-0 right-0 left-0":""} imageheader flex justify-between px-32 left-0 right-0 top-0 w-full py-3 z-50 bg-[#FFFFFF] items-center border shadow-[0_10_15px_rgba(0,0,0,0.8)]`}>
+      <div className={`${fixed?"fixed top-0 right-0 left-0":""} imageheader flex justify-between px-32 left-0 right-0 top-0 w-full py-3 z-50 bg-[#FFFFFF] items-center shadow-[0_1px_5px_rgba(0,0,0,0.1)]`}>
         <div className="cursor-pointer">
           <IoSearch className="text-xl" />
         </div>
