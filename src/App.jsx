@@ -3,12 +3,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header';
 import Courasel from './components/Courasel';
 import Jersysection from './components/Jersysection';
-import Marquee from './components/Marquee';
 import Cards from './components/Cards'
+
+
 
 import {useGSAP} from '@gsap/react'
 import {gsap} from 'gsap'
 import {ScrollTrigger} from 'gsap/ScrollTrigger'
+import Merchandise from './components/Merchandise';
+import Slider from './components/Slider';
+import Imgmar from './components/Imgmar';
 gsap.registerPlugin(ScrollTrigger)
 
 
@@ -38,8 +42,10 @@ onLeaveBack:()=>setFixed(false)
       <Header fixed={Fixed}/>
 <Courasel/>
 <Jersysection/>
-<Marquee/>
+<Slider/>
 <Cards/>
+<Merchandise/>
+<Imgmar/>
     </div>
   )
 }
