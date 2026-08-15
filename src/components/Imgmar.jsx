@@ -52,7 +52,7 @@ const Imgmar = () => {
   const Marquee = MarqueeLib.default;
   return (
     <div>
-      <div className="pb-20">
+      <div className="">
 <div className="flex flex-col justify-center items-center p-3">
 <p className="text-base font-semibold">Playing for the Nation</p>
 <p className="text-2xl font-bold">Every jersey carries a story. Every player carries Nepal.

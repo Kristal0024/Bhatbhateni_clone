@@ -1,9 +1,10 @@
 import React,{useState} from 'react'
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header';
 import Courasel from './components/Courasel';
 import Jersysection from './components/Jersysection';
 import Cards from './components/Cards'
+
+
 
 
 
@@ -13,6 +14,10 @@ import {ScrollTrigger} from 'gsap/ScrollTrigger'
 import Merchandise from './components/Merchandise';
 import Slider from './components/Slider';
 import Imgmar from './components/Imgmar';
+import Partners from './components/Partners';
+import Gallery from './components/Gallery';
+import Questions from './components/Questions';
+import Aboutus from './components/Aboutus';
 gsap.registerPlugin(ScrollTrigger)
 
 
@@ -46,6 +51,10 @@ onLeaveBack:()=>setFixed(false)
 <Cards/>
 <Merchandise/>
 <Imgmar/>
+<Partners/>
+<Gallery/>
+<Questions/>
+<Aboutus/>
     </div>
   )
 }
