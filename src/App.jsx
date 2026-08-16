@@ -5,9 +5,6 @@ import Jersysection from './components/Jersysection';
 import Cards from './components/Cards'
 
 
-
-
-
 import {useGSAP} from '@gsap/react'
 import {gsap} from 'gsap'
 import {ScrollTrigger} from 'gsap/ScrollTrigger'
@@ -18,6 +15,8 @@ import Partners from './components/Partners';
 import Gallery from './components/Gallery';
 import Questions from './components/Questions';
 import Aboutus from './components/Aboutus';
+import Promotion from './components/Promotion';
+import Footer from './components/Footer';
 gsap.registerPlugin(ScrollTrigger)
 
 
@@ -55,6 +54,8 @@ onLeaveBack:()=>setFixed(false)
 <Gallery/>
 <Questions/>
 <Aboutus/>
+<Promotion/>
+<Footer/>
     </div>
   )
 }
