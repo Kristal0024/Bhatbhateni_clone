@@ -38,7 +38,7 @@ const data=[{
 const Cards = () => {
   return (
     <div>
-<div className="w-full flex py-18 px-30 h-auto gap-4">
+<div className="grid grid-cols-2 px-8 lg:px-30 py-15 sm:w-full h-auto gap-4 md:flex">
       {
 data.map((value)=>{
 return(

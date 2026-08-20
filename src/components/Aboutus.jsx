@@ -29,7 +29,7 @@ const Aboutus = () => {
   return (
     <div>
 <div className="bg-[#FFF4E6]">
- <div className="grid grid-cols-3 py-20 mx-30 h-50 border-t border-gray-200">
+ <div className="grid grid-cols-1 min-[500px]:grid-cols-2 md:grid-cols-3 py-20 md:mx-8 lg:mx-30 md:gap-3 h-50 border-t border-gray-200">
 {
 data.map((value)=>{
 return(
@@ -37,7 +37,7 @@ return(
 <div className="w-15 h-15 border flex items-center justify-center rounded-full bg-[#FD7E14]/25 mb-4 group-hover:scale-110 group-hover:bg-[#FD7E14] transition-all duration-300">
 <span className='text-[#FD7E14] text-4xl group-hover:text-white transition-all duration-300'>{value.icon}</span>
 </div>
-<p className='font-bold text-lg group-hover:text-[#FD7E14] transition-all duration-300'>{value.title}</p>
+<p className='text-center font-bold text-lg group-hover:text-[#FD7E14] transition-all duration-300'>{value.title}</p>
 <p className='text-center text-sm text-gray-500'>{value.desc}</p>
 </div>
 )

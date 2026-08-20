@@ -55,15 +55,15 @@ const Imgmar = () => {
       <div className="">
 <div className="flex flex-col justify-center items-center p-3">
 <p className="text-base font-semibold">Playing for the Nation</p>
-<p className="text-2xl font-bold">Every jersey carries a story. Every player carries Nepal.
+<p className="text-2xl font-bold text-center border-b pb-3 border-gray-400 w-[80%]">Every jersey carries a story. Every player carries Nepal.
 </p>
 </div>
-        <div className="border bg-[#bbbb] flex items-center h-162 border-green-800">
+        <div className="border bg-[#bbbb] flex items-center h-110 sm:h-138 lg:h-162">
           <Marquee className="h-full overflow-hidden" speed={80} pauseOnHover>
             <span className="h-full flex">
               {data.map((value) => {
                 return (
-                  <div className="h-full w-84 ml-6" key={value.id}>
+                  <div className="h-[80%] sm:h-full w-56 sm:w-71 lg:w-84 ml-6" key={value.id}>
                     <img className="h-full w-full" src={value.image} alt="" />
                   </div>
                 );

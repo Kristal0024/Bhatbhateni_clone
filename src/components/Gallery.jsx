@@ -14,10 +14,10 @@ const Gallery = () => {
       <div className="bg-[#FFF4E6] w-full h-fit">
 <div className="lg:mx-50 p-5 flex flex-col gap-5">
 <div className="flex flex-col justify-center items-center mt-4">
-<p className='text-5xl font-bold text-black'>CAN Media Gallery</p>
+<p className='text-4xl md:text-5xl font-bold text-black'>CAN Media Gallery</p>
 <p className='text-lg text-black'>Share your beauty moments and get featured</p>
 </div>
-<div className="w-full h-full grid grid-cols-3 gap-3 perspective-[1000px]">
+<div className="w-full h-full grid grid-cols-2 gap-3 md:grid-cols-3 perspective-[1000px]">
 <span className='relative group overflow-hidden rounded-2xl'>
 <img className='rounded-2xl group-hover:scale-105 transition-all' src={galleryone} alt="" />
 <div className="absolute inset-0 z-30 cursor-pointer flex justify-center items-center bg-black/50 rounded-2xl opacity-[0] group-hover:opacity-[100] transition-all duration-500"><LuFacebook className='text-6xl text-white' /> </div>
